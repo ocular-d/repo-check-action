@@ -1,0 +1,10 @@
+on: push
+name: Check repo
+jobs:
+  vaildate-repo:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: repo-check
+      uses: ./
+
