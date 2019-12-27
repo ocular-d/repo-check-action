@@ -19,7 +19,7 @@ CLEAR_LINE='\r\033[K'
 LOGFILE=error.log
 
 # Markdown
-CHECK_MD='README.md CHANGELOG.md foo.md'
+CHECK_MD='README.md CHANGELOG.md'
 
 check_md_files() {
     for file in $CHECK_MD
